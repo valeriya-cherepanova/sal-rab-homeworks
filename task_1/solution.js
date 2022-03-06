@@ -34,7 +34,8 @@ function addInCartCountChange(value) {
 
     // Задание №1.2. Увеличение количества в корзине
     let oldValue = value;
-    let newValue = oldValue;
+    let newValue;
+    newValue = oldValue;
     newValue = newValue + 1;
 
 
@@ -53,7 +54,8 @@ function addInCartSumChange(sum, delta) {
     let newSum;
     newSum = oldSum + difference;
     let newSumText;
-    newSumText = newSum + ' ₽';
+    // замена склеивания на шаблонную строку
+    newSumText = `${newSum} ₽`
 
     // Задание №1.3. Увеличение суммы в корзине
 
