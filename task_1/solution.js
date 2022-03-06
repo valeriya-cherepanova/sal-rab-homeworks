@@ -1,6 +1,6 @@
 function addInCartMessage(title, price) {
-    let productName = "title";
-    let productPrice = "price";
+    let productName = title;
+    let productPrice = price;
     let message;
     message = productName;
     message = message + ' ';
@@ -24,8 +24,8 @@ function addInCartMessage(title, price) {
     // выведите переменную message в консоль
 
     // Конец решения задания №1.1.
-    
-    // Не хватает единицы измерения price
+
+    // Не хватает единицы измерения для price
 
     return message;
 }
@@ -35,7 +35,7 @@ function addInCartCountChange(value) {
     // Задание №1.2. Увеличение количества в корзине
     let oldValue = value;
     let newValue = oldValue;
-    console.log(oldValue + 1);
+    newValue = newValue + 1;
 
 
     // создайте переменную newValue
