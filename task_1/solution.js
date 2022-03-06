@@ -50,9 +50,10 @@ function addInCartCountChange(value) {
 function addInCartSumChange(sum, delta) {
     let oldSum = sum;
     let difference = delta;
-    let newSum = sum + difference;
-    let newSumText = newSum + ' ₽';
-    // что такое шаблонная строка?
+    let newSum;
+    newSum = oldSum + difference;
+    let newSumText;
+    newSumText = newSum + ' ₽';
 
     // Задание №1.3. Увеличение суммы в корзине
 
